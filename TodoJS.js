@@ -95,8 +95,8 @@ function showToDo() {
 function ToDoSend() {
   var text = $("#todo");
   var kigen = $("#day");
-  if (text.val().length == 0) {
-    alert('Todo名を入力してください');
+  if (text.val().length === 0 || text.val().length >= 41) {
+    alert('Todo名は1~40文字で入力してください');
   } else {
     var time = new Date();
     var time2 = "作成日: " + time.getFullYear() + "年" + (time.getMonth() + 1) + "月" + time.getDate() + "日"; //kairyounoyochiari

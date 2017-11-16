@@ -6,6 +6,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  zoom: 98%;
 }
 
 header {
@@ -37,16 +38,22 @@ body {
 }
 
 li {
+  zoom: 100%;
   overflow-x: auto;
 }
 
 #form {
   position: relative;
+  font-size: 1.2rem;
   line-height: 200%;
   margin: 10px 30px 15px;
   padding: 10px;
   border: medium solid rgba(34, 154, 219, 0.5);
   overflow-x: auto;
+}
+
+input {
+  font-size: 1.2rem;
 }
 
 #date {
@@ -168,7 +175,7 @@ li {
   position: absolute;
   display: inline;
   top: -10px;
-  left: 1047px;
+  left: 1037px;
   /*margin: 0px 0px 0px 871px;*/
 }
 
@@ -176,12 +183,12 @@ li {
   position: absolute;
   display: inline;
   top: -10px;
-  left: 1047px;
+  left: 1037px;
   /*margin: 0px 0px 0px 753px;*/
 }
 
 #img1 {
   position: absolute;
   left: 1000px;
-  top: 10px;
+  top: 23px;
 }
